@@ -150,3 +150,4 @@ if st.session_state.submitted_flag and st.session_state.last_user_message.strip(
 
     except Exception as e:
         response_area.error(f"Error: {e}")
+
